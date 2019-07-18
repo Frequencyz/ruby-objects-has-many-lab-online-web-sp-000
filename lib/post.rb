@@ -22,6 +22,7 @@ class Post
   end
   
   def author_name(name)
+    @posts = post
     
     self.author
   end
