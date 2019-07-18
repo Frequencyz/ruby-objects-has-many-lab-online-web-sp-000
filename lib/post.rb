@@ -13,7 +13,8 @@ class Post
     @@all
   end
   
-  def 
+  def author_title
+    
   
   
 end
