@@ -1,11 +1,11 @@
 class Post
   
-  attr_accessor :name, :author
+  attr_accessor :title, :author
   
   @@all = []
   
   def initialize(name)
-    @name = name
+    @title = title
     @@all << self
   end
   
@@ -15,7 +15,7 @@ class Post
   
   def author_title
     if self.author
-      self.author.name 
+      self.author.title 
     else
       nil
     end
