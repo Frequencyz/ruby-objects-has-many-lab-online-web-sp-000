@@ -23,8 +23,8 @@ class Post
   
   def author_name(name)
     @posts = post
-    
-    self.author
+    post.author = self
   end
+    
   
 end
