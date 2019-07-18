@@ -16,8 +16,9 @@ class Post
   def author_title
     if self.author
       self.author.title 
-      
-    
-  
+    else
+      nil
+    end
+  end
   
 end
